@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Document Signing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Cloud Document Signing System</h2>
+
+        <!-- File Upload -->
+        <input type="file" id="fileInput" accept="application/pdf">
+        
+        <!-- Signature Canvas -->
+        <h3>Draw Your Signature Below:</h3>
+        <canvas id="signatureCanvas"></canvas>
+        <button id="clearSignature">Clear Signature</button>
+
+        <!-- Upload Button -->
+        <button id="uploadBtn">Sign & Upload</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
